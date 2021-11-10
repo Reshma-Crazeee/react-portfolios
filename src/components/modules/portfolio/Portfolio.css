@@ -1,0 +1,92 @@
+.portfolio{
+    background-color: rgb(218, 214, 214);
+    color: black;
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+}
+.port__role{
+    text-align: center;
+    color: #0c3516;
+    font-size: 30px;
+    font-weight: bold;
+}
+.color__port{
+    border-bottom: 5px solid orange;
+    width: 12%;
+    margin-left: 44%;
+}
+.demo{
+    color: #f90046;
+
+}
+.port__line{
+    margin: 62px;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    border-radius: 5px;
+    height: 40vh;
+}
+.box:hover{
+    display: inline;
+    transform:scale(1.1);
+}
+.violet{
+    background-size: cover;
+    height: 84%;
+    width: 99%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.gray{
+    width: 40%;
+    margin-left: 137px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: gray;
+
+}
+.yellow{
+    background-color: #f3a702;
+    background-size: cover;
+    height: 79%;
+    width: 97%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.navyblue{
+    background-color: rgb(2, 2, 153);
+    background-size: cover;
+    height: 96%;
+    width: 92%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.pink{
+    background-color: #fac2c2;
+    background-size: cover;
+    height: 96%;
+    width: 92%;
+    background-repeat: no-repeat;
+}
+.blue{
+    background-color:   black ;
+    width: 87%;
+    height: 237px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+@media screen and (min-width:300px) and (max-width:700px) {
+    .portfolio{
+        display: none;
+    }
+}

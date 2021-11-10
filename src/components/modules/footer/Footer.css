@@ -1,0 +1,19 @@
+.footer{
+    background-color: #f7f3ba;
+    height: 75px;
+    width: 100%;
+    margin-top: 100px;
+}
+.foot__text{
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+
+@media screen and (min-width:300px) and (max-width:700px){
+    .foot__text{
+        font-size: 15px;
+    }
+}

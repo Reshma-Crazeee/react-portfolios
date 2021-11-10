@@ -1,0 +1,172 @@
+.about{
+    background-color: rgb(218, 214, 214);
+    height: 75vh;
+    width: 100%;
+    color: white;
+}
+.box__about{
+    padding-top: 50px;
+}
+.row{
+    border: 0px solid gray;
+    width: 78%;
+    margin-left: 10%;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    box-shadow: 0px 1px 6px black;
+}
+
+.col__1{
+    width: 400px;
+    height: 400px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 3px 9px #8bd9f8;
+    border-radius: 50%;
+    margin-left:100px;
+    
+}
+
+.abt__img{
+    background-image: url("../../images/third.jpg");
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    height: 65vh ;
+    gap: 10%;
+}
+
+.col__2{
+    color: #0c3516;
+    border:0px solid gray;
+    height: auto;
+    width: 40%;
+}
+.abt__me{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.colo__abt{
+    border-bottom: 5px solid orange;
+    width: 33%;
+}
+.para__1{
+    margin-top: 30px;
+    color: #03947c;
+    font-size: 16px;
+}
+.lang{
+    margin-top: 25px;
+    border: 2px solid rgb(243, 242, 242);
+    height: 125px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+}
+.lib{
+    height: 95px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-left: 47px;
+}
+.lib__names{
+    height: 25px;
+    border-radius: 10px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+i{
+    margin-right: 20px;
+}
+.fa-html5{
+    color: #ec3304;
+}
+.fa-css3-alt{
+    color: blue;
+}
+.fa-js-square{
+    border-radius: 30px;
+    height: 45px;
+    color: yellow;
+    background-color: black;
+}
+.fa-bootstrap{
+    color: purple;
+}
+.fa-react{
+    color:aqua;
+}
+.fa-github{
+    color: black;
+}
+
+
+@media screen and (min-width:300px) and (max-width:700px){
+    .about{
+        background-color: white;
+        height: 112vh;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 52vh;
+        position: relative;
+        background-color: white;
+        box-shadow: 0px 0px 0px white;
+
+    }
+    .abt__me {
+        font-size: 25px;
+        margin-top: 0px;   
+    }
+    .abt__img{
+        height: 70%;
+        width: 70%;
+    }
+    .colo__abt {
+        border-bottom: 5px solid orange;
+        width: 44%;
+    }
+    .col__1{
+        display: inline-block;
+        position: absolute;
+        top: 93%;
+        margin-left: 147px;
+        box-shadow: 0px 0px 0px white;
+    }
+    .col__2{
+        margin: 10px;
+        width: auto;
+    }
+    .para__1 {
+        font-size: 14px;
+    }
+    .lang{
+        position: absolute;
+        top: 135%;
+        left: 10%;
+        background-color: white;
+        height: 152px;
+    }
+    .fa-js-square{
+        height: 39px;
+    }
+    .lib{
+        display: inline-block;
+        padding: 2px;
+        height: 20vh;
+        margin: 12px;
+    }
+}

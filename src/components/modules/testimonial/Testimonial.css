@@ -1,0 +1,143 @@
+.test{
+    background-color: rgb(218, 214, 214);
+    color:white;
+    height:80vh;
+    width:100%;
+    margin-top: 75px;
+}
+.new__test{
+    border: 2px solid gray;
+    border-radius: 5px;
+    height: 58vh;
+    width: 70%;
+    margin-left: 16%;
+    background-color: white;
+    box-shadow: 1px 1px 35px rgba(46, 44, 44, 0.856);
+}
+.test__role{
+    color: #0c3516;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.underline__color{
+    border-bottom: 5px solid orange;
+    width: 26%;
+    margin-left: 37%;
+    margin-bottom: 20px;
+}
+.col__test{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    box-shadow: 1px 3px 9px #8bd9f8;
+    border-radius: 50%;
+    
+}
+.test1{
+    float: left;
+}
+  
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;   
+}
+
+.author__test{
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.box__test{
+    margin-top: 30px;
+    border: 0px solid gray;
+    border-radius:5px;
+    height:auto;
+    width:30%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.box1{
+    float:left;
+    margin-left:20px;
+}
+
+.company__test{
+    color: black;
+    font-size: 13px;
+}
+.desc__test{
+    border: 0px solid gray;
+    border-radius: 5px;
+    height: auto;
+    width: 74%;
+    text-align: center;
+    margin-top: 40px;
+    color: black;
+}
+.view__test{
+    color: orange;
+    text-align: center;
+    margin-top: 373px;
+    padding-top: 20px;
+}
+.border__test{
+    
+    height: 60px;
+    width: 100%;
+    background-color: #f8dd93;
+}
+
+@media screen and (min-width:300px) and (max-width:700px){
+    .test{
+        background-color: white;
+    }
+    .test__role{
+        background-color: rgb(218, 214, 214);
+        font-size: 23px;
+    }
+    .underline__color{
+        width: 82%;
+        margin-left: 9%;
+    }
+    .new__test{
+        width: 90%;
+        margin: 20px;
+        height: 81%;
+    }
+    .box1{
+        float: none;
+        margin-left: 51px;
+    }
+    .box__test{
+        width: 70%;
+        margin-bottom: 20px;
+    }
+    .desc__test{
+        width: 77%;
+        text-align: start;
+    }
+    .alberto{
+        display: none;
+    }
+    .border__test{
+        height: 54px;
+        width: 89%;
+        position: absolute;
+      
+    }
+    .view__test{
+        position: absolute;
+        top: -378px;
+        left: 77px;
+    }
+    
+}
