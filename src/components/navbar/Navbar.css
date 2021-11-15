@@ -26,7 +26,8 @@ a{
 }
 
 .items{
-    color: red;
+    cursor: pointer;
+    color: black;
     text-align: center;
     font-size: 20px;
 }
@@ -51,13 +52,9 @@ a{
 
 /* Menu */
 
-/* .menu{
-    border: 2px solid green;
-    border-radius: 5px;
-    height: 40px;
-    width: 30%;
-    background-color: #f90046;
-} */
+.cross{
+    display: none;
+}
 @media screen and (min-width:300px) and (max-width:700px) {
     .logo-name{
         font-size: 20px;
@@ -82,16 +79,22 @@ a{
         cursor: pointer;
         font-size: 30px;   
     }
+    .dissappear{
+        position:absolute;
+        top: 8px;
+        left: 338px;
+    }
     .cross{
-        height: 20px;
-        width: 20px;
+        display: block;
+        height: 60px;
+        width: 60px;
         cursor: pointer;
         border: 0px solid yellow;
         border-radius: 50%;
-        background-color: white;
-        margin-left: 120%;
-        margin-top: 6px;
-
+        background-color: transparent;
+        position:absolute;
+        top: -1px;
+        left: 315px;
     }
     
     .bottom{

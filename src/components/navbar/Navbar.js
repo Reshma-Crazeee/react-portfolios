@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Link,Routes,Route } from 'react-router-dom';
+import { Link } from 'react-scroll';
+import { Routes,Route } from 'react-router-dom';
 import About from '../modules/about/About';
 import Footer from '../modules/footer/Footer';
 import Home from '../modules/home/Home';
@@ -35,30 +36,30 @@ export default class Navbar extends Component{
                    
                     </div>
                         <ul>
-                        <li className="items"><Link to="#home">Home</Link></li>
-                        <li className="items"><Link to="#about">About</Link></li>
-                        <li className="items"><Link to="#portfolios">Portfolio</Link></li>
-                        <li className="items"><Link to="#resume">Resume</Link></li>
-                        <li className="items"><Link to="#contact">Contact</Link></li>
+                        <li className="items"><Link activeClass="active" to="home" spy={true} smooth={true}>Home</Link></li>
+                        <li className="items"><Link to="about" spy={true} smooth={true}>About</Link></li>
+                        <li className="items"><Link to="portfolio" spy={true} smooth={true}>Portfolio</Link></li>
+                        <li className="items"><Link to="resume" spy={true} smooth={true}>Resume</Link></li>
+                        <li className="items"><Link to="contact" spy={true} smooth={true}>Contact</Link></li>
                     </ul>
                     <div className="top">
-                            <i class="fas fa-times"></i>
-
+                        <i class="fas fa-times"></i>
                     </div>
                 </nav>
                 <Routes>
                     <Route path='/home' element={<Home/>} />
                     <Route path='/about' element={<About/>} />
-                    <Route path='/portfolios' element={<Portfolio/>}/>
+                    <Route path='/portfolio' element={<Portfolio/>}/>
                     <Route path='/resume' element={<Resume/>} />
                     <Route path='/testimonial' element={<Testimonial/>} />
                     <Route path='/contact' element={<Contact/>} />
                     <Route path='/footer' element={<Footer/>} />
                 </Routes>
                </div>
-            
            </div>
-       
         )
     }
 }
+
+            
+       
