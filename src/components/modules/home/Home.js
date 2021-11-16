@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll';
+import resume  from './Resume.pdf';
 import './Home.css';
 
 export default function Home(){
@@ -13,7 +14,7 @@ export default function Home(){
                     <Link to="contact" spy={true} smooth={true}>
                     <button className="btn hire-me">Hire Me</button>
                     </Link>
-                    <a href="resume.pdf" download="Reshma resume.pdf ">
+                    <a href={resume} download="Reshma Resume" target="_blank" rel="noreferrer">
                     <button className="btn get-resume">Get Resume</button>
                     </a>
                 </div>
