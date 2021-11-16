@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-protfolios/static/css/main.9624c06d.chunk.css",
-    "main.js": "/react-protfolios/static/js/main.6b375d2c.chunk.js",
-    "main.js.map": "/react-protfolios/static/js/main.6b375d2c.chunk.js.map",
+    "main.js": "/react-protfolios/static/js/main.13c203b1.chunk.js",
+    "main.js.map": "/react-protfolios/static/js/main.13c203b1.chunk.js.map",
     "runtime-main.js": "/react-protfolios/static/js/runtime-main.c20c0576.js",
     "runtime-main.js.map": "/react-protfolios/static/js/runtime-main.c20c0576.js.map",
     "static/js/2.75572bd0.chunk.js": "/react-protfolios/static/js/2.75572bd0.chunk.js",
@@ -12,6 +12,7 @@
     "index.html": "/react-protfolios/index.html",
     "static/css/main.9624c06d.chunk.css.map": "/react-protfolios/static/css/main.9624c06d.chunk.css.map",
     "static/js/2.75572bd0.chunk.js.LICENSE.txt": "/react-protfolios/static/js/2.75572bd0.chunk.js.LICENSE.txt",
+    "static/media/Resume.a759ce74.pdf": "/react-protfolios/static/media/Resume.a759ce74.pdf",
     "static/media/Home.css": "/react-protfolios/static/media/card4.82508ccb.jpg",
     "static/media/Resume.css": "/react-protfolios/static/media/card2.39368c54.jpg",
     "static/media/About.css": "/react-protfolios/static/media/card6.12143977.jpg",
@@ -27,6 +28,6 @@
     "static/js/runtime-main.c20c0576.js",
     "static/js/2.75572bd0.chunk.js",
     "static/css/main.9624c06d.chunk.css",
-    "static/js/main.6b375d2c.chunk.js"
+    "static/js/main.13c203b1.chunk.js"
   ]
 }
