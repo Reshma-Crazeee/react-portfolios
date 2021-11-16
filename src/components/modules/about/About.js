@@ -15,7 +15,7 @@ export default function About(){
                        <p className="abt__me">About Me</p>
                        <p className="colo__abt"/>
                        <p className="para__1">
-                           I'm a web designer & front-end developer with 7 years of professional experience. I'm interested in all kinds of visual communication, but my major focus is on designing web, mobile & tablet interfaces. I also have skills in other fields like branding, icon design or web developement.
+                           I'm a web designer & front-end developer . I'm interested in all kinds of visual communication, but my major focus is on designing web, mobile & tablet interfaces.
                        </p>
                        <p className="para__1">
                            I enjoy turning complex problems into simple, beautiful and intuitive designs. When I'm not pushing pixels, you'll find me cooking, gardening or working out in the park.
