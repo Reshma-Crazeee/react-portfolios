@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import './Home.css';
 
 export default function Home(){
@@ -10,7 +10,7 @@ export default function Home(){
                 <div className="role">A Front-end Developer</div>
                 <div className="tagline">Get Ready to turn ideas into reality</div >
                 <div className="btns">
-                    <Link to="#Contact">
+                    <Link to="contact" spy={true} smooth={true}>
                     <button className="btn hire-me">Hire Me</button>
                     </Link>
                     <a href="resume.pdf" download="Reshma resume.pdf ">
